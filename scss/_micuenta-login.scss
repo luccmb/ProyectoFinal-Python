@@ -1,0 +1,95 @@
+$colorAmarillo: #eee400;
+$colorAmbar: #ffcf00;
+$colorNegro: #000000;
+$letra: 'Kanit', sans-serif;
+
+body {
+    font-family: $letra;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: $colorAmbar;
+    color: $colorNegro;
+
+    a {
+        color: $colorNegro;
+    }
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $colorNegro;
+        border-radius: 5px;
+        margin-bottom: 15px;
+
+        &:focus {
+            border-color: $colorAmarillo;
+            outline: none;
+            box-shadow: 0 0 5px rgba($colorAmarillo, 0.5);
+        }
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: $colorAmarillo;
+        color: $colorNegro;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: ($colorAmarillo, 10%);
+        }
+    }
+
+    #message {
+        text-align: center;
+    }
+}
+
+.marcas {
+    text-align: center;
+    margin: 0;
+
+    img {
+        max-width: 100px;
+        margin: 0 10px;
+    }
+}
+
+footer {
+    background-color: $colorNegro;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-container {
+    background-color: $colorNegro;
+    padding: 20px 0;
+}

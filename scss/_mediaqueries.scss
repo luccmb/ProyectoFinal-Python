@@ -1,0 +1,71 @@
+@media (max-width: 1200px) {
+    .principal .titulo {
+        font-size: 2rem;
+    }
+
+    .principal .formulario form {
+        width: 70%;
+    }
+
+    .ubicacion {
+        width: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .principal .titulo {
+        font-size: 1.8rem;
+    }
+
+    .principal .formulario form {
+        width: 80%;
+    }
+
+    .ubicacion {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .principal .titulo {
+        font-size: 1.6rem;
+    }
+
+    .principal .formulario form {
+        width: 90%;
+    }
+
+    .ubicacion {
+        width: 90%;
+    }
+
+    .marcas img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .principal .titulo {
+        font-size: 1.4rem;
+    }
+
+    .principal .formulario form {
+        width: 100%;
+    }
+
+    .ubicacion {
+        width: 100%;
+    }
+
+    .marcas img {
+        width: 80px;
+    }
+}

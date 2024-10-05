@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+header .banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+header .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+h2{
+    background-color: #ffcf00;
+    text-align: center;
+    font-size: 40px;
+}
+
+.destacados{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productoDestacado{
+    flex-basis: 30%;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #ffcf00; 
+}
+
+.productoDestacado img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.productoSerie img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.productoDestacado button {
+    background-color: #ffcf00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.marcas{
+    background-color: #ffcf00 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.marcas img{
+    width: 250px;
+    margin: 10px;
+}
+
+.textoMarcas{   
+    font-size: 45px;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    background-color: #333; 
+}
+
+.redes h4{
+    color: #ffcf00;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcf00;
+    font-size: medium;
+    padding: 10px;   
+}
+
+.ubicacion p{
+    font-size: large;
+}
+
+.ubicacion iframe{
+    width: 400px;
+    height: 250px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    background-color: #ffcf00;
+    font-size: medium;
+    padding: 10px;
+}
+
+.nosotros{
+    flex-basis: 30%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffcf00; 
+    background-color: #333;
+    padding: 20px;
+    font-size: 25px;
+    object-fit: contain;
+}
+
+.principal{
+    background-color: #333;
+}
+
+.formulario {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario button[type="submit"] {
+    background-color: #ffcf00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #eee400;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

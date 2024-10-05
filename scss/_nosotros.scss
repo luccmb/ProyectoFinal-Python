@@ -1,0 +1,116 @@
+.principal {
+    text-align: center;
+    margin: 20px 0;
+  
+    .titulo {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .nosotros {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+      }
+  
+      .carousel {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+  
+        .carousel-track {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+        }
+  
+        .productoSerie {
+          min-width: 100%;
+          transition: transform 0.5s ease-in-out;
+  
+          img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+        }
+  
+        .carousel-button {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          z-index: 100;
+  
+          &.prev {
+            left: 10px;
+          }
+  
+          &.next {
+            right: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .productoSerie {
+      min-width: 50%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .productoSerie {
+      min-width: 33.33%;
+    }
+  }
+
+$card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+$card-hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+  .carousel {
+      position: relative;
+      overflow: hidden;
+  
+      .carousel-track {
+          display: flex;
+          transition: transform 0.5s ease;
+      }
+  
+      .productoSerie {
+          min-width: 100%;
+          img {
+              width: 100%;
+              height: auto;
+          }
+      }
+  
+      .carousel-button {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(255, 255, 255, 0.7);
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+          font-size: 2rem;
+  
+          &.prev {
+              left: 10px;
+          }
+          &.next {
+              right: 10px;
+          }
+      }
+  }
+  

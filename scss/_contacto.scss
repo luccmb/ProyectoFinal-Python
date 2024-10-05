@@ -1,0 +1,65 @@
+$colorAmarillo: #eee400;
+$colorAmbar: #ffcf00;
+$colorNegro: #000000;
+$letra: 'Kanit', sans-serif;
+
+body {
+    font-family: $letra;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    text-align: center;
+    padding: 50px 0;
+
+    .titulo {
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        color: $colorNegro;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            border: 1px solid $colorNegro;
+            border-radius: 5px;
+
+            &:focus {
+                border-color: $colorAmarillo;
+                box-shadow: 0 0 5px rgba($colorAmarillo, 0.5);
+            }
+        }
+
+        .btn-primary {
+            background-color: $colorAmbar;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+
+            &:hover {
+                background-color: ($colorAmbar, 10%);
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $colorNegro;
+    color: $colorAmbar;
+    text-align: center;
+    padding: 20px 0;
+}

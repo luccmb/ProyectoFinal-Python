@@ -1,0 +1,635 @@
+@media (max-width: 1200px) {
+  .principal .titulo {
+    font-size: 2rem;
+  }
+  .principal .formulario form {
+    width: 70%;
+  }
+  .ubicacion {
+    width: 70%;
+  }
+}
+@media (max-width: 992px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .principal .titulo {
+    font-size: 1.8rem;
+  }
+  .principal .formulario form {
+    width: 80%;
+  }
+  .ubicacion {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .principal .titulo {
+    font-size: 1.6rem;
+  }
+  .principal .formulario form {
+    width: 90%;
+  }
+  .ubicacion {
+    width: 90%;
+  }
+  .marcas img {
+    width: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .principal .titulo {
+    font-size: 1.4rem;
+  }
+  .principal .formulario form {
+    width: 100%;
+  }
+  .ubicacion {
+    width: 100%;
+  }
+  .marcas img {
+    width: 80px;
+  }
+}
+.principal {
+  text-align: center;
+}
+.principal .titulo {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.principal .titulo2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.principal .destacados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.principal .destacados .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 18rem;
+  overflow: hidden;
+}
+.principal .destacados .card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.principal .destacados .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.principal .destacados .card .card-body {
+  padding: 15px;
+}
+.principal .destacados .card .card-body h3.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.principal .destacados .card .card-body p.card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #ffcf00;
+}
+.principal .destacados .card .card-body .precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffcf00;
+}
+.principal .destacados .card .card-body .btn {
+  background-color: #eee400;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.principal .destacados .card .card-body .btn:hover {
+  background-color: #ffcf00;
+}
+
+.principal {
+  text-align: center;
+  margin: 20px 0;
+}
+.principal .titulo {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.principal .nosotros {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.principal .nosotros p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.principal .nosotros .carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+.principal .nosotros .carousel .carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.principal .nosotros .carousel .productoSerie {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.principal .nosotros .carousel .productoSerie img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.principal .nosotros .carousel .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+.principal .nosotros .carousel .carousel-button.prev {
+  left: 10px;
+}
+.principal .nosotros .carousel .carousel-button.next {
+  right: 10px;
+}
+
+@media (min-width: 768px) {
+  .productoSerie {
+    min-width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .productoSerie {
+    min-width: 33.33%;
+  }
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+.carousel .carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.carousel .productoSerie {
+  min-width: 100%;
+}
+.carousel .productoSerie img {
+  width: 100%;
+  height: auto;
+}
+.carousel .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 2rem;
+}
+.carousel .carousel-button.prev {
+  left: 10px;
+}
+.carousel .carousel-button.next {
+  right: 10px;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ffcf00;
+  color: #000000;
+}
+.navbar a {
+  color: #000000;
+}
+
+.titulo {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.formulario label {
+  display: block;
+  margin: 10px 0 5px;
+}
+.formulario input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.formulario input:focus {
+  border-color: #eee400;
+  outline: none;
+  box-shadow: 0 0 5px rgba(238, 228, 0, 0.5);
+}
+.formulario button {
+  width: 100%;
+  padding: 10px;
+  background-color: #eee400;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formulario button:hover {
+  background-color: #eee400, 10%;
+}
+.formulario #message {
+  text-align: center;
+}
+
+.marcas {
+  text-align: center;
+  margin: 0;
+}
+.marcas img {
+  max-width: 100px;
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.main-container {
+  background-color: #000000;
+  padding: 20px 0;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  text-align: center;
+  padding: 50px 0;
+}
+.principal .titulo {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #000000;
+}
+.principal .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.principal .container form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.principal .container .form-label {
+  font-weight: bold;
+}
+.principal .container .form-control {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.principal .container .form-control:focus {
+  border-color: #eee400;
+  box-shadow: 0 0 5px rgba(238, 228, 0, 0.5);
+}
+.principal .container .btn-primary {
+  background-color: #ffcf00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.principal .container .btn-primary:hover {
+  background-color: #ffcf00, 10%;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffcf00;
+  text-align: center;
+  padding: 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.barra {
+  background: radial-gradient(circle, rgb(2, 0, 36) 12%, rgb(255, 207, 0) 100%, rgb(238, 228, 0) 100%);
+  padding: 10px 0;
+  height: auto;
+}
+.barra .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra .navbar .navbar-toggler {
+  border-color: rgb(255, 207, 0);
+}
+.barra .navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 207, 0, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.barra .navbar .collapse {
+  justify-content: center;
+}
+.barra .navbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.barra .navbar .navbar-nav .nav-item {
+  margin: 0 15px;
+  font-size: 15px;
+}
+.barra .navbar .navbar-nav .nav-item .nav-link {
+  color: #ffcf00;
+  text-decoration: none;
+  font-weight: 500;
+}
+.barra .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #eee400;
+}
+
+header .banner {
+  width: 100%;
+  height: 100%;
+}
+header .banner img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.principal {
+  background-color: #000000;
+  color: #ffcf00;
+  text-align: center;
+  margin: 0;
+}
+.principal .titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffcf00;
+}
+.principal .titulo2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffcf00;
+}
+.principal .destacados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.principal .destacados .card {
+  margin: 10px;
+  background: radial-gradient(circle, rgb(2, 0, 36) 12%, rgb(255, 207, 0) 100%, rgb(238, 228, 0) 100%);
+  color: #ffcf00;
+  border: solid 1px #ffcf00;
+  border-radius: 5px;
+}
+.principal .destacados .card .card-title {
+  font-size: 1rem;
+  color: #ffcf00;
+}
+.principal .destacados .card .card-text {
+  font-size: 0.5rem;
+}
+.principal .destacados .card .btn {
+  background-color: #ffcf00;
+  color: #000000;
+  border: none;
+}
+.principal .destacados .card .btn:hover {
+  background-color: #eee400;
+}
+
+.marcas {
+  width: 100%;
+  background: radial-gradient(circle, rgb(238, 228, 0) 80%, rgb(0, 0, 0) 100%);
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.marcas .textoMarcas {
+  display: flex;
+  align-items: center;
+}
+
+footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: #ffcf00;
+}
+footer .redes a h4 {
+  margin: 0;
+}
+footer .ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  background: radial-gradient(circle, rgb(238, 228, 0) 80%, rgb(0, 0, 0) 100%);
+}
+footer .ubicacion p {
+  font-size: 20px;
+  color: #ffcf00;
+}
+footer .copy {
+  text-align: center;
+  background-color: #000000;
+  color: #ffcf00;
+  margin: 0;
+}
+
+.ubicacion {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.ubicacion iframe {
+  width: 50%;
+  height: auto;
+}
+
+.principal .container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.principal .container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+.principal .container form button {
+  display: flex;
+  align-items: center;
+  background-color: #ffcf00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.principal .container form button:hover {
+  background-color: #ffcf00, 10%;
+}
+
+footer {
+  background-color: #000000;
+}
+footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: #ffcf00;
+}
+footer .redes a .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+footer .redes a h4 {
+  margin: 0;
+}
+footer .redes a:hover {
+  color: #eee400;
+}
+footer .redes a:not(:last-child) {
+  margin-right: 20px;
+}
+footer .ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  background: radial-gradient(circle, rgb(238, 228, 0) 80%, rgb(0, 0, 0) 100%);
+}
+footer .ubicacion p {
+  font-size: 20px;
+  color: #ffcf00;
+}
+footer .ubicacion iframe {
+  width: 50%;
+  height: auto;
+}
+footer .copy {
+  text-align: center;
+  background-color: #000000;
+  color: #ffcf00;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.principal {
+  text-align: center;
+}
+.principal .titulo {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.principal .nosotros p {
+  margin: 20px;
+}
+.principal .nosotros .carousel {
+  position: relative;
+  overflow: hidden;
+}
+.principal .nosotros .carousel .carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+.principal .nosotros .carousel .productoSerie {
+  min-width: 100%;
+}
+.principal .nosotros .carousel .productoSerie img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.principal .nosotros .carousel .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.principal .nosotros .carousel .carousel-button.prev {
+  left: 10px;
+}
+.principal .nosotros .carousel .carousel-button.next {
+  right: 10px;
+}
+
+/*# sourceMappingURL=css.map */
